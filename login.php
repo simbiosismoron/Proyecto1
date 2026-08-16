@@ -36,21 +36,21 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (isset($_SESSION["correo"])){ ?>
         <?php header("Location: priv.php") ?>
         </p>
-   <?php } else { ?>
-            <div class="container">
-                <h2 id="logo">ImpResidual</h2>
-                <form id="formulario" action="" method="POST">
-                        <div class="label">
-                            <label for="correo">Correo electronico</label>
-                            <input id="correo" type="text" name="correo">
-                        </div>
-                        <div class="label">
-                            <label for="contraseña">Contraseña</label>
-                            <input id="contraseña "type="password" name="contraseña">
-                        </div>
-                        <input id="boton" type="submit" value="Enviar">
-                    </form>
-                </div>
-        <?php } ?>                
+<?php } else { ?>
+<div class="container">
+    <h2 id="logo">ImpResidual</h2>
+    <form id="formulario" action="" method="POST">
+            <div class="label">
+                <label for="correo">Correo electronico</label>
+                <input id="correo" type="text" name="correo">
+            </div>
+            <div class="label">
+                <label for="contraseña">Contraseña</label>
+                <input id="contraseña "type="password" name="contraseña">
+            </div>
+            <input id="boton" type="submit" value="Enviar">
+        </form>
+    </div>
+<?php } ?>                
 </body>
 </html>

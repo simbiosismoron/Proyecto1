@@ -12,29 +12,18 @@ include("init.php")
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 </head>
-<body>
-	<button id="boton">hola</button>
+<body
 
-	<a href="cerrar.php">Cerrar sesión</a>
-	<div class="container">
-		<div id="lista">
-			<div class="lista-element1">
-				1
-			</div>
-			<div class="lista-element2">
-				2
-			</div>
-			<div class="lista-element3">
-				3
-			</div>
-			<div class="lista-element4">
-				4
-			</div>
-	</div>
+<h2>Productos</h2>
+<div id="productos"></div>
 
-	<div class="caja">
+<h2>Carrito</h2>
+<div id="carrito"></div>
 
-	</div>
 <script src="script.js"></script>
+<a href="cerrar.php">Cerrar sesión</a>
+
+<script src="script.js"></script>
+
 </body>
 </html>
